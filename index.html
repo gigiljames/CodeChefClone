@@ -1,0 +1,1378 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CodeChef - Learn and Practice Coding with Problems</title>
+    <meta name="viewport" content="width=device-width, inital-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" href="assets/img/codechef.ico" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="navbar navbar-1 shadow-sm bg-white" role="navigation">
+      <div class="container-fluid navbar-container">
+        <a class="navbar-brand" href="https://www.codechef.com/"
+          ><img
+            class="logo"
+            src="https://cdn.codechef.com/images/cc-logo-mobile-1.svg"
+            alt="codechef logo" />
+          <img
+            class="logo-big"
+            src="https://cdn.codechef.com/images/cc-logo.svg"
+            alt="codechef logo"
+        /></a>
+        <button class="btn login-signup-button">Login &#47; Sign Up</button>
+        <div class="button-group">
+          <div class="lg-visible row h-100">
+            <div class="navbar-2-item" id="navbar-courses">Courses</div>
+            <div class="navbar-2-item">Practice</div>
+            <div class="navbar-2-item">Compete</div>
+          </div>
+          <button class="btn login-button">Login</button>
+          <button class="btn signup-button">Sign Up</button>
+        </div>
+      </div>
+    </nav>
+    <nav class="navbar navbar-2 bg-white" role="navigation">
+      <div class="container-fluid m-0 justify-content-center">
+        <div class="row h-100">
+          <div class="navbar-2-item" id="navbar-courses">Courses</div>
+          <div class="navbar-2-item">Practice</div>
+          <div class="navbar-2-item">Compete</div>
+        </div>
+      </div>
+    </nav>
+    <div class="courses-drop-down flex-column">
+      <a
+        class="d-flex justify-content-between"
+        href="https://www.codechef.com/roadmap/python-dsa"
+        ><span>Learn Python</span><span>10 courses</span></a
+      >
+      <a
+        class="d-flex justify-content-between"
+        href="https://www.codechef.com/roadmap/cpp-dsa"
+        ><span>Learn C++</span><span>9 courses</span></a
+      >
+      <a
+        class="d-flex justify-content-between"
+        href="https://www.codechef.com/roadmap/c-dsa"
+        ><span>Learn C</span><span>9 courses</span></a
+      >
+      <a
+        class="d-flex justify-content-between"
+        href="https://www.codechef.com/roadmap/java-dsa"
+        ><span>Learn Java</span><span>9 courses</span></a
+      >
+      <a
+        class="d-flex justify-content-between"
+        href="https://www.codechef.com/roadmap/javascript-dsa"
+        ><span>Learn JavaScript</span><span>9 courses</span></a
+      >
+      <a
+        class="d-flex justify-content-between"
+        href="https://www.codechef.com/roadmap/data-structures-and-algorithms"
+        ><span>Data Structures and Algorithms</span><span>21 courses</span></a
+      >
+      <a
+        class="d-flex justify-content-between"
+        href="https://www.codechef.com/roadmap/sql"
+        ><span>Learn SQL</span><span>7 courses</span></a
+      >
+      <a
+        class="d-flex justify-content-between"
+        href="https://www.codechef.com/roadmap/html"
+        ><span>Web development</span><span>5 courses</span></a
+      >
+    </div>
+    <section class="section-1">
+      <div class="container-fluid">
+        <div class="main-home row justify-content-center">
+          <div class="col-12 col-lg-6 col-xl-6">
+            <h1 class="main-heading">Start your coding journey today</h1>
+            <p class="section-1-para">
+              Learn to code from scratch with
+              <span>job focussed courses</span> designed by experts.
+            </p>
+            <div class="row flex-column">
+              <img
+                class="boy-1"
+                src="https://cdn.codechef.com/images/home/coding_boy.svg"
+                alt="coding boy"
+              />
+              <div class="button-container row justify-content-center">
+                <input
+                  class="col-6 email-input"
+                  type="text"
+                  name="search"
+                  placeholder="Enter email"
+                />
+                <button class="col-6 start-button">
+                  Start learning today<i
+                    class="em em-zap"
+                    aria-role="presentation"
+                    aria-label="HIGH VOLTAGE SIGN"
+                  ></i>
+                </button>
+              </div>
+              <div class="google-container row flex-row">
+                <div>
+                  <div class="col-2">or sign up with</div>
+                  <button
+                    class="btn col-2 d-flex justify-content-center"
+                    style="gap: 7px"
+                  >
+                    <img
+                      src="assets/img/google_logo.svg"
+                      alt="google logo"
+                    />Google
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 col-xl-6 boy-2">
+            <img
+              src="https://cdn.codechef.com/images/home/coding_boy.svg"
+              alt="coding boy"
+            />
+          </div>
+        </div>
+        <div class="row courses bg-white shadow-sm">
+          <!--Course list 1 starts-->
+          <h2 class="course-list-heading">Learn to code</h2>
+          <div class="course-list d-flex">
+            <div class="course-card bg-white d-flex flex-column">
+              <div class="course-card-line-1 d-flex justify-content-between">
+                <img
+                  class="course-thumbnail"
+                  src="https://cdn.codechef.com/images/self-learning/icons/python.svg"
+                  alt="course thumbnail"
+                />
+                <span class="course-level">Beginner</span>
+              </div>
+              <a href="https://www.codechef.com/learn/course/python">
+                <div class="course-card-line-2">Learn Python</div>
+              </a>
+              <div class="course-card-line-3">
+                <p>
+                  Get hands-on experience and master the basic syntax of Python
+                  to jumpstart your coding journey
+                </p>
+              </div>
+              <div class="course-card-line-4 d-flex justify-content-between">
+                <div class="course-student-count">133.6k+ learners</div>
+                <div class="course-rating d-flex align-items-center">
+                  <div>4.7</div>
+                  <img
+                    src="https://cdn.codechef.com/images/home/star_icon.svg"
+                    alt="star icon"
+                  />
+                </div>
+              </div>
+              <div class="course-card-line-5">
+                <a href="https://www.codechef.com/learn/course/python"
+                  ><button class="btn btn-outline-primary w-100">
+                    View this Course
+                  </button></a
+                >
+              </div>
+            </div>
+            <div class="course-card bg-white d-flex flex-column">
+              <div class="course-card-line-1 d-flex justify-content-between">
+                <img
+                  class="course-thumbnail"
+                  src="https://cdn.codechef.com/images/self-learning/icons/java.svg"
+                  alt="course thumbnail"
+                />
+                <span class="course-level">Beginner</span>
+              </div>
+              <a href="https://www.codechef.com/learn/course/java">
+                <div class="course-card-line-2">Learn Java</div>
+              </a>
+              <div class="course-card-line-3">
+                <p>
+                  Get hands-on experience in Java programming with this
+                  interactive and practical course
+                </p>
+              </div>
+              <div class="course-card-line-4 d-flex justify-content-between">
+                <div class="course-student-count">89.1k+ learners</div>
+                <div class="course-rating d-flex align-items-center">
+                  <div>4.7</div>
+                  <img
+                    src="https://cdn.codechef.com/images/home/star_icon.svg"
+                    alt="star icon"
+                  />
+                </div>
+              </div>
+              <div class="course-card-line-5">
+                <a href="https://www.codechef.com/learn/course/java"
+                  ><button class="btn btn-outline-primary w-100">
+                    View this Course
+                  </button></a
+                >
+              </div>
+            </div>
+            <div class="course-card bg-white d-flex flex-column">
+              <div class="course-card-line-1 d-flex justify-content-between">
+                <img
+                  class="course-thumbnail"
+                  src="https://cdn.codechef.com/images/self-learning/icons/cpp.svg"
+                  alt="course thumbnail"
+                />
+                <span class="course-level">Beginner</span>
+              </div>
+              <a href="https://www.codechef.com/learn/course/cpp">
+                <div class="course-card-line-2">Learn C++</div>
+              </a>
+              <div class="course-card-line-3">
+                <p>
+                  Join this interactive and hands-on C++ course to master the
+                  basic syntax of the language.
+                </p>
+              </div>
+              <div class="course-card-line-4 d-flex justify-content-between">
+                <div class="course-student-count">52.1k+ learners</div>
+                <div class="course-rating d-flex align-items-center">
+                  <div>4.7</div>
+                  <img
+                    src="https://cdn.codechef.com/images/home/star_icon.svg"
+                    alt="star icon"
+                  />
+                </div>
+              </div>
+              <div class="course-card-line-5">
+                <a href="https://www.codechef.com/learn/course/cpp"
+                  ><button class="btn btn-outline-primary w-100">
+                    View this Course
+                  </button></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="course-list d-flex">
+            <div class="course-card bg-white d-flex flex-column">
+              <div class="course-card-line-1 d-flex justify-content-between">
+                <img
+                  class="course-thumbnail"
+                  src="https://cdn.codechef.com/images/self-learning/icons/javascript.svg"
+                  alt="course thumbnail"
+                />
+                <span class="course-level">Beginner</span>
+              </div>
+              <a href="https://www.codechef.com/learn/course/javascript">
+                <div class="course-card-line-2">Learn JavaScript</div>
+              </a>
+              <div class="course-card-line-3">
+                <p>
+                  Learn the language which powers millions of web application in
+                  the world. Start with learning basic constructs and get ready
+                  to solve
+                </p>
+              </div>
+              <div class="course-card-line-4 d-flex justify-content-between">
+                <div class="course-student-count">7.8k+ learners</div>
+                <div class="course-rating d-flex align-items-center">
+                  <div>4.8</div>
+                  <img
+                    src="https://cdn.codechef.com/images/home/star_icon.svg"
+                    alt="star icon"
+                  />
+                </div>
+              </div>
+              <div class="course-card-line-5">
+                <a href="https://www.codechef.com/learn/course/javascript"
+                  ><button class="btn btn-outline-primary w-100">
+                    View this Course
+                  </button></a
+                >
+              </div>
+            </div>
+
+            <div class="course-card bg-white d-flex flex-column">
+              <div class="course-card-line-1 d-flex justify-content-between">
+                <img
+                  class="course-thumbnail"
+                  src="https://cdn.codechef.com/images/self-learning/icons/c.svg"
+                  alt="course thumbnail"
+                />
+                <span class="course-level">Beginner</span>
+              </div>
+              <a href="https://www.codechef.com/learn/course/c">
+                <div class="course-card-line-2">Learn C</div>
+              </a>
+              <div class="course-card-line-3">
+                <p>
+                  Discover the fundamentals of programming with this interactive
+                  and practical C course. Master the basic syntax of the
+                  language and build a
+                </p>
+              </div>
+              <div class="course-card-line-4 d-flex justify-content-between">
+                <div class="course-student-count">58.7k+ learners</div>
+                <div class="course-rating d-flex align-items-center">
+                  <div>4.6</div>
+                  <img
+                    src="https://cdn.codechef.com/images/home/star_icon.svg"
+                    alt="star icon"
+                  />
+                </div>
+              </div>
+              <div class="course-card-line-5">
+                <a href="https://www.codechef.com/learn/course/c"
+                  ><button class="btn btn-outline-primary w-100">
+                    View this Course
+                  </button></a
+                >
+              </div>
+            </div>
+            <div class="course-card bg-white d-flex flex-column">
+              <div class="course-card-line-1 d-flex justify-content-between">
+                <img
+                  class="course-thumbnail"
+                  src="https://cdn.codechef.com/images/self-learning/icons/c-sharp.svg"
+                  alt="course thumbnail"
+                />
+                <span class="course-level">Beginner</span>
+              </div>
+              <a href="https://www.codechef.com/learn/course/c-sharp">
+                <div class="course-card-line-2">Learn C#</div>
+              </a>
+              <div class="course-card-line-3">
+                <p>
+                  Learn the basics of C# programming with ease in this
+                  interactive and practical course. Master the basic syntax of
+                  the language and build a
+                </p>
+              </div>
+              <div class="course-card-line-4 d-flex justify-content-between">
+                <div class="course-student-count">4.3k+ learners</div>
+                <div class="course-rating d-flex align-items-center">
+                  <div>4.6</div>
+                  <img
+                    src="https://cdn.codechef.com/images/home/star_icon.svg"
+                    alt="star icon"
+                  />
+                </div>
+              </div>
+              <div class="course-card-line-5">
+                <a href="https://www.codechef.com/learn/course/c-sharp"
+                  ><button class="btn btn-outline-primary w-100">
+                    View this Course
+                  </button></a
+                >
+              </div>
+            </div>
+          </div>
+          <!--Course list 1 ends-->
+
+          <!-- Course list 2 starts -->
+          <h2 class="course-list-heading">Data Structures</h2>
+          <div class="course-list d-flex">
+            <div class="course-card bg-white d-flex flex-column">
+              <div class="course-card-line-1 d-flex justify-content-between">
+                <img
+                  class="course-thumbnail"
+                  src="https://cdn.codechef.com/images/self-learning/icons/linked-lists.svg"
+                  alt="course thumbnail"
+                />
+                <span class="course-level">Beginner</span>
+              </div>
+              <a href="https://www.codechef.com/learn/course/linked-lists">
+                <div class="course-card-line-2">Linked Lists</div>
+              </a>
+              <div class="course-card-line-3">
+                <p>
+                  Get hands-on experience and master the basic syntax of Python
+                  to jumpstart your coding journey
+                </p>
+              </div>
+              <div class="course-card-line-4 d-flex justify-content-between">
+                <div class="course-student-count">5.4k+ learners</div>
+                <div class="course-rating d-flex align-items-center">
+                  <div>4.7</div>
+                  <img
+                    src="https://cdn.codechef.com/images/home/star_icon.svg"
+                    alt="star icon"
+                  />
+                </div>
+              </div>
+              <div class="course-card-line-5">
+                <a href="https://www.codechef.com/learn/course/linked-lists"
+                  ><button class="btn btn-outline-primary w-100">
+                    View this Course
+                  </button></a
+                >
+              </div>
+            </div>
+            <div class="course-card bg-white d-flex flex-column">
+              <div class="course-card-line-1 d-flex justify-content-between">
+                <img
+                  class="course-thumbnail"
+                  src="https://cdn.codechef.com/images/self-learning/icons/stacks-and-queues.svg"
+                  alt="course thumbnail"
+                />
+                <span class="course-level">Beginner</span>
+              </div>
+              <a href="https://www.codechef.com/learn/course/stacks-and-queues">
+                <div class="course-card-line-2">Stacks and Queues</div>
+              </a>
+              <div class="course-card-line-3">
+                <p>
+                  A stack follows the Last-In, First-Out (LIFO) principle. It is
+                  similar to a physical stack of objects, like a stack of books,
+                  where you can only add or
+                </p>
+              </div>
+              <div class="course-card-line-4 d-flex justify-content-between">
+                <div class="course-student-count">3.7k+ learners</div>
+                <div class="course-rating d-flex align-items-center">
+                  <div>4.4</div>
+                  <img
+                    src="https://cdn.codechef.com/images/home/star_icon.svg"
+                    alt="star icon"
+                  />
+                </div>
+              </div>
+              <div class="course-card-line-5">
+                <a
+                  href="https://www.codechef.com/learn/course/stacks-and-queues"
+                  ><button class="btn btn-outline-primary w-100">
+                    View this Course
+                  </button></a
+                >
+              </div>
+            </div>
+            <div class="course-card bg-white d-flex flex-column">
+              <div class="course-card-line-1 d-flex justify-content-between">
+                <img
+                  class="course-thumbnail"
+                  src="https://cdn.codechef.com/images/self-learning/icons/matrices.svg"
+                  alt="course thumbnail"
+                />
+                <span class="course-level">Beginner</span>
+              </div>
+              <a href="https://www.codechef.com/practice/matrices">
+                <div class="course-card-line-2">Matrices</div>
+              </a>
+              <div class="course-card-line-3">
+                <p>
+                  Learn and Practice problems on Matrices. Matrix is 2D data
+                  structures which can be used to represent grids, paths etc..
+                </p>
+              </div>
+              <div class="course-card-line-4 d-flex justify-content-between">
+                <div class="course-student-count">1.0k+ learners</div>
+                <div class="course-rating d-flex align-items-center">
+                  <div>4.8</div>
+                  <img
+                    src="https://cdn.codechef.com/images/home/star_icon.svg"
+                    alt="star icon"
+                  />
+                </div>
+              </div>
+              <div class="course-card-line-5">
+                <a href="https://www.codechef.com/practice/matrices"
+                  ><button class="btn btn-outline-primary w-100">
+                    View this Course
+                  </button></a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Course list 2 ends -->
+
+          <!-- Course list 3 starts -->
+          <h2 class="course-list-heading">Algorithms</h2>
+          <div class="course-list d-flex">
+            <div class="course-card bg-white d-flex flex-column">
+              <div class="course-card-line-1 d-flex justify-content-between">
+                <img
+                  class="course-thumbnail"
+                  src="https://cdn.codechef.com/images/self-learning/icons/time-complexity.svg"
+                  alt="course thumbnail"
+                />
+                <span class="course-level">Beginner</span>
+              </div>
+              <a href="https://www.codechef.com/learn/course/time-complexity">
+                <div class="course-card-line-2">Time Complexity</div>
+              </a>
+              <div class="course-card-line-3">
+                <p>
+                  Learn all about time complexity in our beginner course and
+                  apply this knowledge to build efficient algorithms
+                </p>
+              </div>
+              <div class="course-card-line-4 d-flex justify-content-between">
+                <div class="course-student-count">5.5k+ learners</div>
+                <div class="course-rating d-flex align-items-center">
+                  <div>4.7</div>
+                  <img
+                    src="https://cdn.codechef.com/images/home/star_icon.svg"
+                    alt="star icon"
+                  />
+                </div>
+              </div>
+              <div class="course-card-line-5">
+                <a href="https://www.codechef.com/learn/course/time-complexity"
+                  ><button class="btn btn-outline-primary w-100">
+                    View this Course
+                  </button></a
+                >
+              </div>
+            </div>
+            <div class="course-card bg-white d-flex flex-column">
+              <div class="course-card-line-1 d-flex justify-content-between">
+                <img
+                  class="course-thumbnail"
+                  src="https://cdn.codechef.com/images/self-learning/icons/greedy-algorithms.svg"
+                  alt="course thumbnail"
+                />
+                <span class="course-level">Intermediate</span>
+              </div>
+              <a href="https://www.codechef.com/learn/course/greedy-algorithms">
+                <div class="course-card-line-2">Greedy Algorithms</div>
+              </a>
+              <div class="course-card-line-3">
+                <p>
+                  Learn the concept of greedy algorithms and practice what you
+                  learnt in the different types of greedy problems
+                </p>
+              </div>
+              <div class="course-card-line-4 d-flex justify-content-between">
+                <div class="course-student-count">1.7k+ learners</div>
+                <div class="course-rating d-flex align-items-center">
+                  <div>4.7</div>
+                  <img
+                    src="https://cdn.codechef.com/images/home/star_icon.svg"
+                    alt="star icon"
+                  />
+                </div>
+              </div>
+              <div class="course-card-line-5">
+                <a
+                  href="https://www.codechef.com/learn/course/greedy-algorithms"
+                  ><button class="btn btn-outline-primary w-100">
+                    View this Course
+                  </button></a
+                >
+              </div>
+            </div>
+            <div class="course-card bg-white d-flex flex-column">
+              <div class="course-card-line-1 d-flex justify-content-between">
+                <img
+                  class="course-thumbnail"
+                  src="https://cdn.codechef.com/images/self-learning/icons/two-pointers.svg"
+                  alt="course thumbnail"
+                />
+                <span class="course-level">Beginner</span>
+              </div>
+              <a href="https://www.codechef.com/practice/two-pointers">
+                <div class="course-card-line-2">Two Pointers</div>
+              </a>
+              <div class="course-card-line-3">
+                <p>
+                  The Two Pointer technique is a widely used algorithmic
+                  approach in computer science and programming
+                </p>
+              </div>
+              <div class="course-card-line-4 d-flex justify-content-between">
+                <div class="course-student-count">1.1k+ learners</div>
+                <div class="course-rating d-flex align-items-center">
+                  <div>5.0</div>
+                  <img
+                    src="https://cdn.codechef.com/images/home/star_icon.svg"
+                    alt="star icon"
+                  />
+                </div>
+              </div>
+              <div class="course-card-line-5">
+                <a href="https://www.codechef.com/practice/two-pointers"
+                  ><button class="btn btn-outline-primary w-100">
+                    View this Course
+                  </button></a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Course list 3 ends -->
+
+          <div class="d-flex justify-content-center">
+            <a href="https://www.codechef.com/learn">
+              <button class="btn btn-primary view-all-button">
+                View All Courses
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-2">
+      <div class="container-fluid">
+        <div class="row flex-lg-row flex-md-column">
+          <div class="section-2-textbox col-12 col-lg-6 col-xl-6">
+            <div>
+              <div class="section-2-textbox-line-1">Learning Courses</div>
+              <div class="section-2-textbox-line-2">
+                Practical, Job relevant topics
+              </div>
+              <div class="section-2-textbox-para">
+                From Python to web development, you'll master
+                <b>concepts that employers demand,</b> ensuring your smooth
+                transition from beginner to professional.
+              </div>
+              <a href="https://www.codechef.com/learn"
+                ><button class="btn section-2-button">Browse catalog</button></a
+              >
+            </div>
+          </div>
+          <div
+            class="section-2-image col-12 col-lg-6 col-xl-6 d-flex d-lg-block justify-content-center"
+          >
+            <img
+              class="img-fluid"
+              src="assets/img/practice_img.png"
+              alt="practice image"
+            />
+          </div>
+        </div>
+        <div class="row flex-lg-row flex-column-reverse">
+          <div
+            class="section-2-image col-12 col-lg-6 col-xl-6 d-flex d-lg-block justify-content-center"
+          >
+            <img
+              class="img-fluid"
+              src="https://cdn.codechef.com/images/home/learn_img.png"
+              alt="learn image"
+            />
+          </div>
+          <div class="section-2-textbox col-12 col-lg-6 col-xl-6">
+            <div class="section-2-textbox-line-1">In Browser IDE</div>
+            <div class="section-2-textbox-line-2">
+              Hands-on Learning Experience
+            </div>
+            <div class="section-2-textbox-para">
+              Practice as you learn with our <b>built-in IDE.</b> Each lesson is
+              designed to be followed by a coding exercise to apply the concepts
+              and gain immediate feedback.
+            </div>
+            <a
+              href="https://www.codechef.com/learn/course/python/LTCPY01/problems/PYTH01"
+              ><button class="btn section-2-button">try a lesson</button></a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-3">
+      <div class="container-fluid">
+        <div class="section-3-part-1 row flex-row">
+          <div class="learner-flex-container col-12 col-lg-6 col-xl-5">
+            <h1 class="learner-flex">Over 2M Learners</h1>
+            <p class="learner-flex-para">
+              Our learners benefit from our rich repository of courses and
+              practice problems every day.
+            </p>
+          </div>
+          <div class="testimonial-container col-lg-6 col-xl-7">
+            <button id="left-arrow-button">←</button>
+            <button id="right-arrow-button">→</button>
+            <div class="testimonials d-flex">
+              <div class="testimonial-card d-flex flex-column">
+                <img
+                  class="quote-icon"
+                  src="assets/img/quote.png"
+                  alt="quote-icon"
+                />
+                <p class="testimonial-para">
+                  These are the best problems for beginners. The problems are
+                  based on basic logic and definitely, the learner who is a
+                  beginner will enjoy solving such problems and will improve day
+                  by day. The logic will improve day by day, so later he can
+                  solve high-level logic problems. I love CodeChef the most. The
+                  platform is best for practicing and learning.
+                </p>
+                <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                <div class="testimonial-dp">
+                  <img
+                    src="https://cdn.codechef.com/images/home/user_deafult.jpg"
+                    alt="testimonial display picture"
+                  />
+                </div>
+                <p class="testimonial-name">ayushagrawal07</p>
+                <p class="testimonial-username">ayushagrawal07</p>
+                <p class="testimonial-location">India</p>
+              </div>
+              <div class="testimonial-card d-flex flex-column">
+                <img
+                  class="quote-icon"
+                  src="assets/img/quote.png"
+                  alt="quote-icon"
+                />
+                <p class="testimonial-para">
+                  These are the best problems for beginners. The problems are
+                  based on basic logic and definitely, the learner who is a
+                  beginner will enjoy solving such problems and will improve day
+                  by day. The logic will improve day by day, so later he can
+                  solve high-level logic problems. I love CodeChef the most. The
+                  platform is best for practicing and learning.
+                </p>
+                <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                <div class="testimonial-dp">
+                  <img
+                    src="https://cdn.codechef.com/images/home/user_deafult.jpg"
+                    alt="testimonial display picture"
+                  />
+                </div>
+                <p class="testimonial-name">ayushagrawal07</p>
+                <p class="testimonial-username">ayushagrawal07</p>
+                <p class="testimonial-location">India</p>
+              </div>
+              <div class="testimonial-card d-flex flex-column">
+                <img
+                  class="quote-icon"
+                  src="assets/img/quote.png"
+                  alt="quote-icon"
+                />
+                <p class="testimonial-para">
+                  These are the best problems for beginners. The problems are
+                  based on basic logic and definitely, the learner who is a
+                  beginner will enjoy solving such problems and will improve day
+                  by day. The logic will improve day by day, so later he can
+                  solve high-level logic problems. I love CodeChef the most. The
+                  platform is best for practicing and learning.
+                </p>
+                <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                <div class="testimonial-dp">
+                  <img
+                    src="https://cdn.codechef.com/images/home/user_deafult.jpg"
+                    alt="testimonial display picture"
+                  />
+                </div>
+                <p class="testimonial-name">ayushagrawal07</p>
+                <p class="testimonial-username">ayushagrawal07</p>
+                <p class="testimonial-location">India</p>
+              </div>
+              <div class="testimonial-card d-flex flex-column">
+                <img
+                  class="quote-icon"
+                  src="assets/img/quote.png"
+                  alt="quote-icon"
+                />
+                <p class="testimonial-para">
+                  These are the best problems for beginners. The problems are
+                  based on basic logic and definitely, the learner who is a
+                  beginner will enjoy solving such problems and will improve day
+                  by day. The logic will improve day by day, so later he can
+                  solve high-level logic problems. I love CodeChef the most. The
+                  platform is best for practicing and learning.
+                </p>
+                <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                <div class="testimonial-dp">
+                  <img
+                    src="https://cdn.codechef.com/images/home/user_deafult.jpg"
+                    alt="testimonial display picture"
+                  />
+                </div>
+                <p class="testimonial-name">ayushagrawal07</p>
+                <p class="testimonial-username">ayushagrawal07</p>
+                <p class="testimonial-location">India</p>
+              </div>
+              <div class="testimonial-card d-flex flex-column">
+                <img
+                  class="quote-icon"
+                  src="assets/img/quote.png"
+                  alt="quote-icon"
+                />
+                <p class="testimonial-para">
+                  These are the best problems for beginners. The problems are
+                  based on basic logic and definitely, the learner who is a
+                  beginner will enjoy solving such problems and will improve day
+                  by day. The logic will improve day by day, so later he can
+                  solve high-level logic problems. I love CodeChef the most. The
+                  platform is best for practicing and learning.
+                </p>
+                <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                <div class="testimonial-dp">
+                  <img
+                    src="https://cdn.codechef.com/images/home/user_deafult.jpg"
+                    alt="testimonial display picture"
+                  />
+                </div>
+                <p class="testimonial-name">ayushagrawal07</p>
+                <p class="testimonial-username">ayushagrawal07</p>
+                <p class="testimonial-location">India</p>
+              </div>
+              <div class="testimonial-card d-flex flex-column">
+                <img
+                  class="quote-icon"
+                  src="assets/img/quote.png"
+                  alt="quote-icon"
+                />
+                <p class="testimonial-para">
+                  These are the best problems for beginners. The problems are
+                  based on basic logic and definitely, the learner who is a
+                  beginner will enjoy solving such problems and will improve day
+                  by day. The logic will improve day by day, so later he can
+                  solve high-level logic problems. I love CodeChef the most. The
+                  platform is best for practicing and learning.
+                </p>
+                <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                <div class="testimonial-dp">
+                  <img
+                    src="https://cdn.codechef.com/images/home/user_deafult.jpg"
+                    alt="testimonial display picture"
+                  />
+                </div>
+                <p class="testimonial-name">ayushagrawal07</p>
+                <p class="testimonial-username">ayushagrawal07</p>
+                <p class="testimonial-location">India</p>
+              </div>
+              <div class="testimonial-card-dummy"></div>
+              <div class="testimonial-card-dummy"></div>
+              <!-- <div class="testimonial-card-dummy"></div> -->
+            </div>
+          </div>
+        </div>
+        <div class="row courses bg-white shadow-sm">
+          <!--Course list 1 starts-->
+          <h2 class="course-list-heading">Data Analytics</h2>
+          <div class="course-list d-flex">
+            <div class="course-card bg-white d-flex flex-column">
+              <div class="course-card-line-1 d-flex justify-content-between">
+                <img
+                  class="course-thumbnail"
+                  src="https://cdn.codechef.com/images/self-learning/icons/sql.svg"
+                  alt="course thumbnail"
+                />
+                <span class="course-level">Beginner</span>
+              </div>
+              <a href="https://www.codechef.com/learn/course/sql">
+                <div class="course-card-line-2">Learn SQL</div>
+              </a>
+              <div class="course-card-line-3">
+                <p>
+                  Learn how to create, manipulate, and query databases with
+                  practical exercises and real-world examples
+                </p>
+              </div>
+              <div class="course-card-line-4 d-flex justify-content-between">
+                <div class="course-student-count">30.9k+ learners</div>
+                <div class="course-rating d-flex align-items-center">
+                  <div>4.6</div>
+                  <img
+                    src="https://cdn.codechef.com/images/home/star_icon.svg"
+                    alt="star icon"
+                  />
+                </div>
+              </div>
+              <div class="course-card-line-5">
+                <a href="https://www.codechef.com/learn/course/sql"
+                  ><button class="btn btn-outline-primary w-100">
+                    View this Course
+                  </button></a
+                >
+              </div>
+            </div>
+            <div class="course-card bg-white d-flex flex-column">
+              <div class="course-card-line-1 d-flex justify-content-between">
+                <img
+                  class="course-thumbnail"
+                  src="https://cdn.codechef.com/images/self-learning/icons/sql-intermediate.svg"
+                  alt="course thumbnail"
+                />
+                <span class="course-level">Intermediate</span>
+              </div>
+              <a href="https://www.codechef.com/learn/course/sql-intermediate">
+                <div class="course-card-line-2">Learn Advanced SQL</div>
+              </a>
+              <div class="course-card-line-3">
+                <p>
+                  Learn advanced querying techniques like joins, sub queries and
+                  set operations to put yourself on the path to mastery in SQL
+                </p>
+              </div>
+              <div class="course-card-line-4 d-flex justify-content-between">
+                <div class="course-student-count">5.9k+ learners</div>
+                <div class="course-rating d-flex align-items-center">
+                  <div>4.5</div>
+                  <img
+                    src="https://cdn.codechef.com/images/home/star_icon.svg"
+                    alt="star icon"
+                  />
+                </div>
+              </div>
+              <div class="course-card-line-5">
+                <a href="https://www.codechef.com/learn/course/sql-intermediate"
+                  ><button class="btn btn-outline-primary w-100">
+                    View this Course
+                  </button></a
+                >
+              </div>
+            </div>
+            <div class="course-card bg-white d-flex flex-column">
+              <div class="course-card-line-1 d-flex justify-content-between">
+                <img
+                  class="course-thumbnail"
+                  src="https://cdn.codechef.com/images/self-learning/icons/sql-case-studies-topic-wise.svg"
+                  alt="course thumbnail"
+                />
+                <span class="course-level">Intermediate</span>
+              </div>
+              <a
+                href="https://www.codechef.com/practice/sql-case-studies-topic-wise"
+              >
+                <div class="course-card-line-2">
+                  SQL: 80 Topics wise Practice Queries
+                </div>
+              </a>
+              <div class="course-card-line-3">
+                <p>
+                  Practice queries on Aggregates, Group by, Joins, Sub-queries
+                  and Case expressions. Solve over 80 SQL exercises using real
+                  life case studies
+                </p>
+              </div>
+              <div class="course-card-line-4 d-flex justify-content-between">
+                <div class="course-student-count">9.7k+ learners</div>
+                <div class="course-rating d-flex align-items-center">
+                  <div>4.6</div>
+                  <img
+                    src="https://cdn.codechef.com/images/home/star_icon.svg"
+                    alt="star icon"
+                  />
+                </div>
+              </div>
+              <div class="course-card-line-5">
+                <a
+                  href="https://www.codechef.com/practice/sql-case-studies-topic-wise"
+                  ><button class="btn btn-outline-primary w-100">
+                    View this Course
+                  </button></a
+                >
+              </div>
+            </div>
+            <!-- </div> -->
+          </div>
+          <!--Course list 1 ends-->
+
+          <!-- Course list 2 starts -->
+          <h2 class="course-list-heading">Web development</h2>
+          <div class="course-list d-flex">
+            <div class="course-card bg-white d-flex flex-column">
+              <div class="course-card-line-1 d-flex justify-content-between">
+                <img
+                  class="course-thumbnail"
+                  src="https://cdn.codechef.com/images/self-learning/icons/html.svg"
+                  alt="course thumbnail"
+                />
+                <span class="course-level">Beginner</span>
+              </div>
+              <a href="https://www.codechef.com/learn/course/html">
+                <div class="course-card-line-2">Learn HTML / CSS</div>
+              </a>
+              <div class="course-card-line-3">
+                <p>
+                  Want to get started with web development? Start with this
+                  beginners course which teaches basic HTML and CSS from scratch
+                </p>
+              </div>
+              <div class="course-card-line-4 d-flex justify-content-between">
+                <div class="course-student-count">27.4k+ learners</div>
+                <div class="course-rating d-flex align-items-center">
+                  <div>4.6</div>
+                  <img
+                    src="https://cdn.codechef.com/images/home/star_icon.svg"
+                    alt="star icon"
+                  />
+                </div>
+              </div>
+              <div class="course-card-line-5">
+                <a href="https://www.codechef.com/learn/course/html"
+                  ><button class="btn btn-outline-primary w-100">
+                    View this Course
+                  </button></a
+                >
+              </div>
+            </div>
+            <div class="course-card bg-white d-flex flex-column">
+              <div class="course-card-line-1 d-flex justify-content-between">
+                <img
+                  class="course-thumbnail"
+                  src="https://cdn.codechef.com/images/self-learning/icons/javascript.svg"
+                  alt="course thumbnail"
+                />
+                <span class="course-level">Beginner</span>
+              </div>
+              <a href="https://www.codechef.com/learn/course/javascript">
+                <div class="course-card-line-2">Learn JavaScript</div>
+              </a>
+              <div class="course-card-line-3">
+                <p>
+                  Learn the language which powers millions of web application in
+                  the world. Start with learning basic constructs and get ready
+                  to solve
+                </p>
+              </div>
+              <div class="course-card-line-4 d-flex justify-content-between">
+                <div class="course-student-count">7.8k+ learners</div>
+                <div class="course-rating d-flex align-items-center">
+                  <div>4.8</div>
+                  <img
+                    src="https://cdn.codechef.com/images/home/star_icon.svg"
+                    alt="star icon"
+                  />
+                </div>
+              </div>
+              <div class="course-card-line-5">
+                <a href="https://www.codechef.com/learn/course/javascript"
+                  ><button class="btn btn-outline-primary w-100">
+                    View this Course
+                  </button></a
+                >
+              </div>
+            </div>
+            <div class="course-card bg-white d-flex flex-column">
+              <div class="course-card-line-1 d-flex justify-content-between">
+                <img
+                  class="course-thumbnail"
+                  src="https://cdn.codechef.com/images/self-learning/icons/web-dev-js.svg"
+                  alt="course thumbnail"
+                />
+                <span class="course-level">Intermediate</span>
+              </div>
+              <a href="https://www.codechef.com/learn/course/web-dev-js">
+                <div class="course-card-line-2">
+                  Web development using JavaScript
+                </div>
+              </a>
+              <div class="course-card-line-3">
+                <p>
+                  Learn DOM events, how to handle user inputs and data
+                  structures, incorporate APIs and Sounds as you build your
+                  projects.
+                </p>
+              </div>
+              <div class="course-card-line-4 d-flex justify-content-between">
+                <div class="course-student-count">4.4k+ learners</div>
+                <div class="course-rating d-flex align-items-center">
+                  <div>4.6</div>
+                  <img
+                    src="https://cdn.codechef.com/images/home/star_icon.svg"
+                    alt="star icon"
+                  />
+                </div>
+              </div>
+              <div class="course-card-line-5">
+                <a href="https://www.codechef.com/learn/course/web-dev-js"
+                  ><button class="btn btn-outline-primary w-100">
+                    View this Course
+                  </button></a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Course list 2 ends -->
+
+          <div class="d-flex justify-content-center">
+            <a href="https://www.codechef.com/learn">
+              <button class="btn btn-primary view-all-button">
+                View All Courses
+              </button>
+            </a>
+          </div>
+        </div>
+        <div class="section-3-part-2">
+          <div
+            class="section-3-part-2-content-1 d-flex flex-column justify-content-center"
+          >
+            <h1 class="section-3-part-2-heading text-center">
+              Start from scratch, Build up expertise ✨
+            </h1>
+            <div class="d-flex justify-content-center">
+              <p class="section-3-part-2-para">
+                We are more than just course providers. We guide you through all
+                four stages of learning and evaluation.
+              </p>
+            </div>
+          </div>
+          <div
+            class="section-3-part-2-content-2 d-flex flex-column-reverse flex-lg-row"
+          >
+            <div
+              class="fancy-stuff col-12 col-lg-6 d-flex flex-column justify-content-center"
+            >
+              <div class="fancy-list d-flex justify-content-center flex-column">
+                <div class="fancy-list-item d-flex align-items-center">
+                  <i class="greenTick"
+                    ><img src="assets/img/greeb_tick.svg"
+                  /></i>
+                  <span class="fancy-para">Learn from courses</span>
+                </div>
+                <div class="fancy-list-item d-flex">
+                  <i class="greenTick"
+                    ><img src="assets/img/greeb_tick.svg"
+                  /></i>
+                  <span class="fancy-para">Practice daily</span>
+                </div>
+                <div class="fancy-list-item d-flex">
+                  <i class="greenTick"
+                    ><img src="assets/img/greeb_tick.svg"
+                  /></i>
+                  <span class="fancy-para">Assess your progress</span>
+                </div>
+                <div class="fancy-list-item d-flex">
+                  <i class="greenTick"
+                    ><img src="assets/img/greeb_tick.svg"
+                  /></i>
+                  <span class="fancy-para">Share with the world, repeat</span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="section-3-img col-12 col-lg-6 d-flex justify-content-center"
+            >
+              <img
+                class="img-fluid"
+                src="https://cdn.codechef.com/images/home/gifs/learn-animation.gif"
+                alt="learn animation"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-4">
+      <div class="row">
+        <div class="col-12 col-md-5">
+          <img
+            class="img-fluid"
+            src="https://cdn.codechef.com/images/home/group_picture.png"
+            alt="Group picture image"
+          />
+        </div>
+        <div class="section-4-content col-12 col-md-7">
+          <div class="section-4-textbox-line-1">CodeChef for colleges</div>
+          <div class="section-4-textbox-para">
+            Teach industry relevant subjects like Data structures, Algorithms,
+            Web development and SQL to your students.
+          </div>
+          <a href="https://www.codechef.com/college-program"
+            ><button class="btn section-4-button">Get in touch</button></a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section class="section-5">
+      <div class="text-center">
+        <h1 class="section-5-heading">Write your first code with us. ✨</h1>
+      </div>
+      <div class="d-flex justify-content-center">
+        <a href="https://www.codechef.com/learn">
+          <button class="btn section-5-button">
+            Start Learning Today<i
+              class="em em-zap"
+              aria-role="presentation"
+              aria-label="HIGH VOLTAGE SIGN"
+            ></i>
+          </button>
+        </a>
+      </div>
+      <div class="d-flex justify-content-center mb-5">
+        <img
+          class="img-fluid"
+          src="https://cdn.codechef.com/images/home/learn_content_abs.png"
+          alt="Learn image"
+        />
+      </div>
+    </section>
+
+    <section class="section-6">
+      <div class="row">
+        <div class="col-12 col-md-4 col-lg-6 d-flex justify-content-center">
+          <img
+            class="img-fluid section-6-img"
+            src="https://cdn.codechef.com/images/home/pro_illustration.svg"
+            alt="pro illustration"
+          />
+        </div>
+        <div class="section-6-content col-12 col-md-8 col-lg-6">
+          <div class="section-6-textbox-line-1">Get CodeChef Pro</div>
+          <div class="section-6-textbox-para">
+            Build real world projects based on what you learn with Pro
+            subscription. Unlock special features
+          </div>
+          <a href="https://www.codechef.com/pro#home"
+            ><button class="btn section-6-button">Go Pro</button></a
+          >
+        </div>
+      </div>
+    </section>
+
+    <footer class="container-fluid">
+      <div class="row footer-1">
+        <div class="footer-1-list col-12 col-md-6 col-lg-3">
+          <div class="footer-1-list-title">Learning Courses</div>
+          <div class="footer-1-list-ul">¯¯¯¯</div>
+          <div class="footer-1-links-list d-flex flex-column">
+            <a href="https://www.codechef.com/learn/course/python"
+              >Learn Python</a
+            >
+            <a href="https://www.codechef.com/learn/course/javascript"
+              >Learn JavaScript</a
+            >
+            <a href="https://www.codechef.com/learn/course/cpp">Learn C++</a>
+            <a href="https://www.codechef.com/learn/course/c">Learn C</a>
+            <a href="https://www.codechef.com/learn/course/java">Learn Java</a>
+            <a href="https://www.codechef.com/learn">More learning courses</a>
+          </div>
+        </div>
+        <div class="footer-1-list col-12 col-md-6 col-lg-3">
+          <div class="footer-1-list-title">Practice Paths</div>
+          <div class="footer-1-list-ul">¯¯¯¯</div>
+          <div class="footer-1-links-list d-flex flex-column">
+            <a href="https://www.codechef.com/practice/python"
+              >Practice Python</a
+            >
+            <a href="https://www.codechef.com/practice/javascript"
+              >Practice JavaScript</a
+            >
+            <a href="https://www.codechef.com/practice/cpp">Practice C++</a>
+            <a href="https://www.codechef.com/practice/c">Practice C</a>
+            <a href="https://www.codechef.com/practice/java">Practice Java</a>
+            <a href="https://www.codechef.com/practice">More practice paths</a>
+          </div>
+        </div>
+        <div class="footer-1-list col-12 col-md-6 col-lg-3 m-sm-0">
+          <div class="footer-1-list-title">Practice Paths</div>
+          <div class="footer-1-list-ul">¯¯¯¯</div>
+          <div class="footer-1-links-list d-flex flex-column">
+            <a href="https://www.codechef.com/python-online-compiler"
+              >Python online compiler</a
+            >
+            <a href="https://www.codechef.com/c-online-compiler"
+              >C online compiler</a
+            >
+            <a href="https://www.codechef.com/cpp-online-compiler"
+              >C++ online compiler</a
+            >
+            <a href="https://www.codechef.com/java-online-compiler"
+              >Java online compiler</a
+            >
+            <a href="https://www.codechef.com/javascript-online-compiler"
+              >JavaScript online compiler</a
+            >
+            <a href="https://www.codechef.com/ide">More compilers</a>
+          </div>
+        </div>
+        <div class="footer-1-list col-12 col-md-6 col-lg-3 m-sm-0">
+          <div class="footer-1-list-title">Miscellaneous</div>
+          <div class="footer-1-list-ul">¯¯¯¯</div>
+          <div class="footer-1-links-list d-flex flex-column">
+            <a href="https://www.codechef.com/blogs">Blogs</a>
+            <a href="https://www.codechef.com/college-program"
+              >CodeChef For Colleges</a
+            >
+            <a href="https://www.codechef.com/contests">Coding Contests</a>
+            <a href="https://www.codechef.com/aboutus">About Us</a>
+            <a href="https://www.codechef.com/contactus">Contact Us</a>
+            <a href="https://www.codechef.com/privacy-policy">Privacy Policy</a>
+          </div>
+        </div>
+      </div>
+      <div
+        class="d-flex footer-2 flex-column flex-sm-row justify-content-between"
+      >
+        <div
+          class="codechef-link d-flex align-items-center justify-content-center"
+        >
+          <a href="https://www.codechef.com/">www.codechef.com</a>
+        </div>
+        <div
+          class="social-icons-container d-flex flex-column flex-lg-row justify-content-between"
+        >
+          <div>Follow Us</div>
+          <div class="d-flex">
+            <a href="https://youtube.com/c/codechef1"
+              ><img
+                class="social-icons"
+                src="assets/social-icons/yt-logo.jpg"
+                alt="YouTube icon"
+            /></a>
+            <a href="https://facebook.com/CodeChef"
+              ><img
+                class="social-icons"
+                src="assets/social-icons/facebook-logo.png"
+                alt="Facebook icon"
+            /></a>
+            <a href="https://instagram.com/codechef"
+              ><img
+                class="social-icons"
+                src="assets/social-icons/insta-logo.png"
+                alt="Instagram icon"
+            /></a>
+            <a href="https://twitter.com/codechef"
+              ><img
+                class="social-icons"
+                src="assets/social-icons/twitter-logo.webp"
+                alt="Twitter icon"
+            /></a>
+            <a href="https://medium.com/codechef-official"
+              ><img
+                class="social-icons"
+                src="assets/social-icons/medium-logo.png"
+                alt="Medium icon"
+            /></a>
+            <a href="https://quora.com/topic/CodeChef"
+              ><img
+                class="social-icons"
+                src="assets/social-icons/quora-logo.webp"
+                alt="Quora icon"
+            /></a>
+            <a href="https://linkedin.com/company/codechef"
+              ><img
+                class="social-icons"
+                src="assets/social-icons/linkedin-logo.webp"
+                alt="LinkedIn icon"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- <a href="https://www.freepik.com/icon/quote_17498243#fromView=keyword&page=1&position=79&uuid=5aeff210-5c27-4578-8c5f-092ff97fa263">Icon by wahya</a> -->
+    <!-- <a href="https://www.flaticon.com/free-icons/google" title="google icons">Google icons created by Freepik - Flaticon</a> -->
+
+    <!-- JavaScript links -->
+    <script src="index.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
