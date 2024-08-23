@@ -458,7 +458,7 @@ footer {
 
 .section-3-part-1 {
   padding: 64px 24px;
-  background-image: linear-gradient(to bottom left, #a3beed, white);
+  background-image: linear-gradient(to bottom, #a3beed, white);
 }
 
 .section-3-part-1:first-child {
