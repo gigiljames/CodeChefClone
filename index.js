@@ -30,14 +30,25 @@ rightButton.addEventListener("click", function () {
   updateButtonVisibility();
 });
 
-let navBarCourses = document.getElementById("navbar-courses");
+let navBarCourses = document.getElementsByClassName("navbar-courses");
 let dropDown = document.getElementsByClassName("courses-drop-down")[0];
-navBarCourses.addEventListener("mouseover", function () {
-  dropDown.style.display = "flex";
-});
-navBarCourses.addEventListener("mouseout", function () {
-  dropDown.style.display = "none";
-});
+if (navBarCourses[0].style.display !== "none") {
+  navBarCourses[0].addEventListener("mouseover", function () {
+    dropDown.style.display = "flex";
+  });
+  navBarCourses[0].addEventListener("mouseout", function () {
+    dropDown.style.display = "none";
+  });
+}
+if (navBarCourses[1].style.display !== "none") {
+  navBarCourses[1].addEventListener("mouseover", function () {
+    dropDown.style.display = "flex";
+  });
+  navBarCourses[1].addEventListener("mouseout", function () {
+    dropDown.style.display = "none";
+  });
+}
+
 dropDown.addEventListener("mouseover", function () {
   dropDown.style.display = "flex";
 });
