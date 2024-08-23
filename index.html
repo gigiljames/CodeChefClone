@@ -45,11 +45,19 @@
         <div class="button-group">
           <div class="lg-visible row h-100">
             <div class="navbar-2-item" id="navbar-courses">Courses</div>
-            <div class="navbar-2-item">Practice</div>
-            <div class="navbar-2-item">Compete</div>
+            <a class="navbar-2-item" href="https://www.codechef.com/practice">
+              <div class="navbar-2-item">Practice</div>
+            </a>
+            <a href="https://www.codechef.com/contests" class="navbar-2-item">
+              <div class="navbar-2-item">Compete</div>
+            </a>
           </div>
-          <button class="btn login-button">Login</button>
-          <button class="btn signup-button">Sign Up</button>
+          <a href="https://www.codechef.com/login?destination=/"
+            ><button class="btn login-button">Login</button></a
+          >
+          <a href="https://www.codechef.com/signup?destination=/"
+            ><button class="btn signup-button">Sign Up</button></a
+          >
         </div>
       </div>
     </nav>
@@ -57,8 +65,12 @@
       <div class="container-fluid m-0 justify-content-center">
         <div class="row h-100">
           <div class="navbar-2-item" id="navbar-courses">Courses</div>
-          <div class="navbar-2-item">Practice</div>
-          <div class="navbar-2-item">Compete</div>
+          <a class="navbar-2-item" href="https://www.codechef.com/practice">
+            <div class="navbar-2-item">Practice</div>
+          </a>
+          <a href="https://www.codechef.com/contests" class="navbar-2-item">
+            <div class="navbar-2-item">Compete</div>
+          </a>
         </div>
       </div>
     </nav>
@@ -137,15 +149,19 @@
               <div class="google-container row flex-row">
                 <div>
                   <div class="col-2">or sign up with</div>
-                  <button
-                    class="btn col-2 d-flex justify-content-center"
-                    style="gap: 7px"
+                  <a
+                    href="https://accounts.google.com/o/oauth2/v2/auth/oauthchooseaccount?state=49258c978066b1fad5e19cc7e374d9abae1741e9e2f32a14a2d955d3ba9d8b08&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&response_type=code&approval_prompt=auto&redirect_uri=https%3A%2F%2Fwww.codechef.com%2FOAuth%2Fgoogle&client_id=239412980790-t66g30lvvdcs9u1q0l8tha23599ltt1j.apps.googleusercontent.com&service=lso&o2v=2&ddm=0&flowName=GeneralOAuthFlow"
                   >
-                    <img
-                      src="assets/img/google_logo.svg"
-                      alt="google logo"
-                    />Google
-                  </button>
+                    <button
+                      class="btn col-2 d-flex justify-content-center"
+                      style="gap: 7px"
+                    >
+                      <img
+                        src="assets/img/google_logo.svg"
+                        alt="google logo"
+                      />Google
+                    </button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -700,155 +716,185 @@
             <button id="left-arrow-button">←</button>
             <button id="right-arrow-button">→</button>
             <div class="testimonials d-flex">
-              <div class="testimonial-card d-flex flex-column">
-                <img
-                  class="quote-icon"
-                  src="assets/img/quote.png"
-                  alt="quote-icon"
-                />
-                <p class="testimonial-para">
-                  These are the best problems for beginners. The problems are
-                  based on basic logic and definitely, the learner who is a
-                  beginner will enjoy solving such problems and will improve day
-                  by day. The logic will improve day by day, so later he can
-                  solve high-level logic problems. I love CodeChef the most. The
-                  platform is best for practicing and learning.
-                </p>
-                <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
-                <div class="testimonial-dp">
+              <div
+                class="testimonial-card d-flex flex-column justify-content-between"
+              >
+                <div>
                   <img
-                    src="https://cdn.codechef.com/images/home/user_deafult.jpg"
-                    alt="testimonial display picture"
+                    class="quote-icon"
+                    src="assets/img/quote.png"
+                    alt="quote-icon"
                   />
+                  <p class="testimonial-para">
+                    These are the best problems for beginners. The problems are
+                    based on basic logic and definitely, the learner who is a
+                    beginner will enjoy solving such problems and will improve
+                    day by day. The logic will improve day by day, so later he
+                    can solve high-level logic problems. I love CodeChef the
+                    most. The platform is best for practicing and learning.
+                  </p>
+                  <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
                 </div>
-                <p class="testimonial-name">ayushagrawal07</p>
-                <p class="testimonial-username">ayushagrawal07</p>
-                <p class="testimonial-location">India</p>
+                <div>
+                  <div class="testimonial-dp">
+                    <img
+                      src="assets/img/user_deafult.jpg"
+                      alt="testimonial display picture"
+                    />
+                  </div>
+                  <p class="testimonial-name">ayushagrawal07</p>
+                  <p class="testimonial-username">ayushagrawal07</p>
+                  <p class="testimonial-location">India</p>
+                </div>
               </div>
-              <div class="testimonial-card d-flex flex-column">
-                <img
-                  class="quote-icon"
-                  src="assets/img/quote.png"
-                  alt="quote-icon"
-                />
-                <p class="testimonial-para">
-                  These are the best problems for beginners. The problems are
-                  based on basic logic and definitely, the learner who is a
-                  beginner will enjoy solving such problems and will improve day
-                  by day. The logic will improve day by day, so later he can
-                  solve high-level logic problems. I love CodeChef the most. The
-                  platform is best for practicing and learning.
-                </p>
-                <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
-                <div class="testimonial-dp">
+              <div
+                class="testimonial-card d-flex flex-column justify-content-between"
+              >
+                <div>
                   <img
-                    src="https://cdn.codechef.com/images/home/user_deafult.jpg"
-                    alt="testimonial display picture"
+                    class="quote-icon"
+                    src="assets/img/quote.png"
+                    alt="quote-icon"
                   />
+                  <p class="testimonial-para">
+                    This module is excellent for both learning and practicing,
+                    as it provides a clear and in-depth understanding of the
+                    concepts. It surpasses traditional learning methods by
+                    offering a deeper comprehension of the subject.
+                  </p>
+                  <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
                 </div>
-                <p class="testimonial-name">ayushagrawal07</p>
-                <p class="testimonial-username">ayushagrawal07</p>
-                <p class="testimonial-location">India</p>
+                <div>
+                  <div class="testimonial-dp">
+                    <img
+                      src="assets/img/hamid.png"
+                      alt="testimonial display picture"
+                    />
+                  </div>
+                  <p class="testimonial-name">hamidkhan18</p>
+                  <p class="testimonial-username">hamidkhan18</p>
+                  <p class="testimonial-location">India</p>
+                </div>
               </div>
-              <div class="testimonial-card d-flex flex-column">
-                <img
-                  class="quote-icon"
-                  src="assets/img/quote.png"
-                  alt="quote-icon"
-                />
-                <p class="testimonial-para">
-                  These are the best problems for beginners. The problems are
-                  based on basic logic and definitely, the learner who is a
-                  beginner will enjoy solving such problems and will improve day
-                  by day. The logic will improve day by day, so later he can
-                  solve high-level logic problems. I love CodeChef the most. The
-                  platform is best for practicing and learning.
-                </p>
-                <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
-                <div class="testimonial-dp">
+              <div
+                class="testimonial-card d-flex flex-column justify-content-between"
+              >
+                <div>
                   <img
-                    src="https://cdn.codechef.com/images/home/user_deafult.jpg"
-                    alt="testimonial display picture"
+                    class="quote-icon"
+                    src="assets/img/quote.png"
+                    alt="quote-icon"
                   />
+                  <p class="testimonial-para">
+                    CodeChef is an excellent platform that offers a wide range
+                    of practice questions and conducts exceptional contests. I
+                    am grateful to the entire the CodeChef team for their
+                    efforts and contributions.
+                  </p>
+                  <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
                 </div>
-                <p class="testimonial-name">ayushagrawal07</p>
-                <p class="testimonial-username">ayushagrawal07</p>
-                <p class="testimonial-location">India</p>
+                <div>
+                  <div class="testimonial-dp">
+                    <img
+                      src="assets/img/anmol.png"
+                      alt="testimonial display picture"
+                    />
+                  </div>
+                  <p class="testimonial-name">anmol_6265</p>
+                  <p class="testimonial-username">Anmol Vishwakarma</p>
+                  <p class="testimonial-location">India</p>
+                </div>
               </div>
-              <div class="testimonial-card d-flex flex-column">
-                <img
-                  class="quote-icon"
-                  src="assets/img/quote.png"
-                  alt="quote-icon"
-                />
-                <p class="testimonial-para">
-                  These are the best problems for beginners. The problems are
-                  based on basic logic and definitely, the learner who is a
-                  beginner will enjoy solving such problems and will improve day
-                  by day. The logic will improve day by day, so later he can
-                  solve high-level logic problems. I love CodeChef the most. The
-                  platform is best for practicing and learning.
-                </p>
-                <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
-                <div class="testimonial-dp">
+              <div
+                class="testimonial-card d-flex flex-column justify-content-between"
+              >
+                <div>
                   <img
-                    src="https://cdn.codechef.com/images/home/user_deafult.jpg"
-                    alt="testimonial display picture"
+                    class="quote-icon"
+                    src="assets/img/quote.png"
+                    alt="quote-icon"
                   />
+                  <p class="testimonial-para">
+                    I love coding, and I'm currently searching for the best
+                    website to learn from. CodeChef is absolutely awesome, and I
+                    really enjoyed using it. Being only 13 years old, I find it
+                    difficult to understand programming languages easily, but
+                    CodeChef has made learning them a breeze. I truly loved
+                    using their website. Thank you so much, CodeChef.
+                  </p>
+                  <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
                 </div>
-                <p class="testimonial-name">ayushagrawal07</p>
-                <p class="testimonial-username">ayushagrawal07</p>
-                <p class="testimonial-location">India</p>
+                <div>
+                  <div class="testimonial-dp">
+                    <img
+                      src="assets/img/user_deafult.jpg"
+                      alt="testimonial display picture"
+                    />
+                  </div>
+                  <p class="testimonial-name">dhanushree</p>
+                  <p class="testimonial-username">dhanushree</p>
+                  <p class="testimonial-location">India</p>
+                </div>
               </div>
-              <div class="testimonial-card d-flex flex-column">
-                <img
-                  class="quote-icon"
-                  src="assets/img/quote.png"
-                  alt="quote-icon"
-                />
-                <p class="testimonial-para">
-                  These are the best problems for beginners. The problems are
-                  based on basic logic and definitely, the learner who is a
-                  beginner will enjoy solving such problems and will improve day
-                  by day. The logic will improve day by day, so later he can
-                  solve high-level logic problems. I love CodeChef the most. The
-                  platform is best for practicing and learning.
-                </p>
-                <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
-                <div class="testimonial-dp">
+              <div
+                class="testimonial-card d-flex flex-column justify-content-between"
+              >
+                <div>
                   <img
-                    src="https://cdn.codechef.com/images/home/user_deafult.jpg"
-                    alt="testimonial display picture"
+                    class="quote-icon"
+                    src="assets/img/quote.png"
+                    alt="quote-icon"
                   />
+                  <p class="testimonial-para">
+                    These exercises are genuinely helpful. I highly recommend
+                    them to anyone who is new to Python programming or has been
+                    facing challenges while learning Python. They serve as the
+                    best source for practice and skill improvement.
+                  </p>
+                  <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
                 </div>
-                <p class="testimonial-name">ayushagrawal07</p>
-                <p class="testimonial-username">ayushagrawal07</p>
-                <p class="testimonial-location">India</p>
+                <div>
+                  <div class="testimonial-dp">
+                    <img
+                      src="assets/img/saqibyounis.png"
+                      alt="testimonial display picture"
+                    />
+                  </div>
+                  <p class="testimonial-name">saqibyounis</p>
+                  <p class="testimonial-username">saqibyounis</p>
+                  <p class="testimonial-location">Pakistan</p>
+                </div>
               </div>
-              <div class="testimonial-card d-flex flex-column">
-                <img
-                  class="quote-icon"
-                  src="assets/img/quote.png"
-                  alt="quote-icon"
-                />
-                <p class="testimonial-para">
-                  These are the best problems for beginners. The problems are
-                  based on basic logic and definitely, the learner who is a
-                  beginner will enjoy solving such problems and will improve day
-                  by day. The logic will improve day by day, so later he can
-                  solve high-level logic problems. I love CodeChef the most. The
-                  platform is best for practicing and learning.
-                </p>
-                <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
-                <div class="testimonial-dp">
+              <div
+                class="testimonial-card d-flex flex-column justify-content-between"
+              >
+                <div>
                   <img
-                    src="https://cdn.codechef.com/images/home/user_deafult.jpg"
-                    alt="testimonial display picture"
+                    class="quote-icon"
+                    src="assets/img/quote.png"
+                    alt="quote-icon"
                   />
+                  <p class="testimonial-para">
+                    This is a superb platform for beginners. Who has a real
+                    enthusiasm for programming? I have revised all the topics
+                    necessary for the Java language in this module. It is a very
+                    nice platform for a beginner Java user. It helps in
+                    practicing Java basic problems. It increases the progress of
+                    a beginner.
+                  </p>
+                  <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
                 </div>
-                <p class="testimonial-name">ayushagrawal07</p>
-                <p class="testimonial-username">ayushagrawal07</p>
-                <p class="testimonial-location">India</p>
+                <div>
+                  <div class="testimonial-dp">
+                    <img
+                      src="assets/img/user_deafult.jpg"
+                      alt="testimonial display picture"
+                    />
+                  </div>
+                  <p class="testimonial-name">mohinidas</p>
+                  <p class="testimonial-username">mohinidas</p>
+                  <p class="testimonial-location">India</p>
+                </div>
               </div>
               <div class="testimonial-card-dummy"></div>
               <div class="testimonial-card-dummy"></div>

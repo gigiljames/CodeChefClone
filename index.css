@@ -80,6 +80,12 @@ body {
   border-radius: 10px;
 }
 
+.course-card button,
+.course-card button:hover {
+  background-color: white;
+  color: #4079da;
+}
+
 .course-card-line-2 {
   height: 50px;
   color: #4079da;
@@ -276,6 +282,15 @@ footer {
   font-size: 30px;
 }
 
+.login-button {
+  color: #2a67b1;
+}
+
+.login-button:hover {
+  background-color: #f0f7fe;
+  color: #2a67b1;
+}
+
 .login-signup-button {
   border-radius: 0.1rem;
   color: #2a67b1;
@@ -443,6 +458,7 @@ footer {
 
 .section-3-part-1 {
   padding: 64px 24px;
+  background-image: linear-gradient(to bottom left, #a3beed, white);
 }
 
 .section-3-part-1:first-child {
@@ -547,6 +563,18 @@ footer {
   color: #7e7a7a;
 }
 
+.signup-button {
+  color: #2a67b1;
+  background-color: white;
+  border: 1px solid #2a67b1;
+}
+
+.signup-button:hover {
+  color: white;
+  background-color: #2a67b1;
+  border: 1px solid white;
+}
+
 .social-icons {
   height: 30px;
 }
@@ -601,6 +629,11 @@ footer {
   min-width: 295px;
   background-color: white;
   padding: 24px;
+  z-index: -1;
+}
+
+.testimonial-dp img {
+  border-radius: 50%;
 }
 
 .testimonial-para {
@@ -654,6 +687,9 @@ footer {
 }
 
 @media only screen and (min-width: 576px) {
+  .navbar-container {
+    padding: 0 48px;
+  }
   .button-group {
     display: flex;
     gap: 10px;
@@ -693,6 +729,9 @@ footer {
 }
 
 @media only screen and (min-width: 992px) {
+  .navbar-container {
+    padding: 0 56px;
+  }
   .navbar-2,
   .logo,
   .boy-1 {
@@ -704,6 +743,7 @@ footer {
   }
   .lg-visible {
     display: flex;
+    margin-right: 5px;
   }
   .courses {
     padding: 32px 64px;
